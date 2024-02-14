@@ -1,0 +1,97 @@
+{
+  "data": [
+      {
+          "author": [
+              "浦沢直樹"
+          ],
+          "imageUrl": "img/manga01.jpg",
+          "itemNo": "17639899",
+          "description": "",
+          "title": "『MONSTER』(モンスター)",
+          "link": "https://solosoprani2002.com/book/17639899/",
+          "janCode": "2100013529210",
+          "released": {
+              "month": "12",
+              "year": "1994",
+              "day": "01"
+          },
+          "price": "12600",
+          "rank": "1",
+          "publisher": "ビッグコミックス"
+      },
+      {
+          "author": [
+              "吉田秋生"
+          ],
+          "imageUrl": "img/manga02.jpg",
+          "itemNo": "17639896",
+          "description": "",
+          "title": "『BANANA FISH』(バナナフィッシュ)",
+          "link": "https://solosoprani2002.com/book/17639896/",
+          "janCode": "4547366645798",
+          "released": {
+              "month": "05",
+              "year": "1985",
+              "day": "01"
+          },
+          "price": "7040",
+          "rank": "2",
+          "publisher": "フラワーコミックス"
+      },
+      {
+          "author": ["野田サトル"],
+          "imageUrl": "img/manga03.jpg",
+          "itemNo": "17643575",
+          "description": "",
+          "title": "『ゴールデンカムイ』(GOLDEN KAMUY)",
+          "link": "https://solosoprani2002.com/book/17643575/",
+          "janCode": "9784802156974",
+          "released": {
+              "month": "08",
+              "year": "2014",
+              "day": "21"
+          },
+          "price": "1650",
+          "rank": "3",
+          "publisher": "ヤングジャンプ・コミックス"
+      },
+      {
+          "author": [
+              "尾田 栄一郎"
+          ],
+          "imageUrl": "img/9203/2100013529203.gif",
+          "itemNo": "17639898",
+          "description": "",
+          "title": "『ONE PIECE』(ワンピース)",
+          "link": "https://solosoprani2002.com/book/17639898/",
+          "janCode": "2100013529203",
+          "released": {
+              "month": "01",
+              "year": "1997",
+              "day": "01"
+          },
+          "price": "12600",
+          "rank": "4",
+          "publisher": "ジャンプ・コミックス"
+      },
+      {
+          "author": [
+              "大友克洋"
+          ],
+          "imageUrl": "img/5774/4547366645774_1_2.jpg",
+          "itemNo": "17639894",
+          "description": "",
+          "title": "『AKIRA』(アキラ)",
+          "link": "https://solosoprani2002.com/book/17639894/",
+          "janCode": "4547366645774",
+          "released": {
+              "month": "12",
+              "year": "1982",
+              "day": "20"
+          },
+          "price": "7040",
+          "rank": "5",
+          "publisher": "(株)ソニー・ミュージックレーベルズ／(株)ソニー・ミュージックソリューションズ"
+      }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "data": [
+      {
+          "author": [
+              "鳥山 明"
+          ],
+          "imageUrl": "img/anime01.png",
+          "itemNo": "17639899",
+          "description": "",
+          "title": "ドラゴンボールZ(DRAGON BALL Z)",
+          "link": "https://solosoprani2002.com/book/17639899/",
+          "janCode": "2100013529210",
+          "released": {
+              "month": "04",
+              "year": "1989",
+              "day": "26"
+          },
+          "price": "12600",
+          "rank": "1",
+          "publisher": "フジテレビ"
+      },
+      {
+          "author": [
+              "矢立肇","富野由悠季"
+          ],
+          "imageUrl": "img/anime02.jpg",
+          "itemNo": "17639896",
+          "description": "",
+          "title": "機動戦士ガンダムSEED(MOBILE SUIT GUNDAM SEED)",
+          "link": "https://solosoprani2002.com/book/17639896/",
+          "janCode": "4547366645798",
+          "released": {
+              "month": "10",
+              "year": "2002",
+              "day": "05"
+          },
+          "price": "7040",
+          "rank": "2",
+          "publisher": "サンライズ"
+      },
+      {
+          "author": ["吾峠呼世晴"],
+          "imageUrl": "img/anime03.jpg",
+          "itemNo": "17643575",
+          "description": "",
+          "title": "鬼滅の刃",
+          "link": "https://solosoprani2002.com/book/17643575/",
+          "janCode": "9784802156974",
+          "released": {
+              "month": "11",
+              "year": "2016",
+              "day": "30"
+          },
+          "price": "1650",
+          "rank": "3",
+          "publisher": "集英社"
+      },
+      {
+          "author": [
+              "BN Picture"
+          ],
+          "imageUrl": "img/anime04.jpg",
+          "itemNo": "17639898",
+          "description": "",
+          "title": "タイガー・アンド・バニー2 (TIGER & BUNNY2)",
+          "link": "https://solosoprani2002.com/book/17639898/",
+          "janCode": "2100013529203",
+          "released": {
+              "month": "04",
+              "year": "2022",
+              "day": "08"
+          },
+          "price": "12600",
+          "rank": "4",
+          "publisher": "Netflix"
+      },
+      {
+          "author": [
+              "芥見下々"
+          ],
+          "imageUrl": "img/anime05.jpg",
+          "itemNo": "17639894",
+          "description": "",
+          "title": "呪術廻戦",
+          "link": "https://solosoprani2002.com/book/17639894/",
+          "janCode": "4547366645774",
+          "released": {
+              "month": "03",
+              "year": "2018",
+              "day": "05"
+          },
+          "price": "7040",
+          "rank": "5",
+          "publisher": "集英社"
+      }
+  ]
+}

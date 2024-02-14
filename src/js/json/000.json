@@ -1,0 +1,99 @@
+{
+  "data": [
+    {
+      "author": [
+          "ムービーアイ","松竹"
+      ],
+      "imageUrl": "img/movie01.jpg",
+      "itemNo": "17639899",
+      "description": "",
+      "title": "ミリオンダラー・ベイビー(Million Dollar Baby)",
+      "link": "",
+      "janCode": "2100013529210",
+      "released": {
+          "month": "05",
+          "year": "2005",
+          "day": "28"
+      },
+      "price": "2480",
+      "rank": "1",
+      "publisher": "ワーナー・ブラザース"
+  },
+  {
+    "author": [
+        "Nintendo"
+    ],
+    "imageUrl": "img/game02.png",
+    "itemNo": "17639896",
+    "description": "",
+    "title": "ゼルダの伝説 | Tears of Kingdom",
+    "link": "https://solosoprani2002.com/book/17639896/",
+    "janCode": "4547366645798",
+    "released": {
+        "month": "11",
+        "year": "2023",
+        "day": "01"
+    },
+    "price": "7040",
+    "rank": "2",
+    "publisher": "Nintendoテクノソリューションズ"
+},
+{
+  "author": [
+      "clean Bandit"
+  ],
+  "imageUrl": "img/music02.jpg",
+  "itemNo": "17639896",
+  "description": "",
+  "title": "Symphony(feat. Zara Larsson)",
+  "link": "https://solosoprani2002.com/book/17639896/",
+  "janCode": "4547366645798",
+  "released": {
+      "month": "03",
+      "year": "2017",
+      "day": "17"
+  },
+  "price": "7040",
+  "rank": "3",
+  "publisher": "ソニー・ミュージックソリューションズ"
+},
+{
+  "author": [
+      "浦沢直樹"
+  ],
+  "imageUrl": "img/manga01.jpg",
+  "itemNo": "17639899",
+  "description": "",
+  "title": "『MONSTER』(モンスター)",
+  "link": "https://solosoprani2002.com/book/17639899/",
+  "janCode": "2100013529210",
+  "released": {
+      "month": "12",
+      "year": "1994",
+      "day": "01"
+  },
+  "price": "12600",
+  "rank": "4",
+  "publisher": "ビッグコミックス"
+},
+{
+  "author": [
+      "BN Picture"
+  ],
+  "imageUrl": "img/anime04.jpg",
+  "itemNo": "17639898",
+  "description": "",
+  "title": "タイガー・アンド・バニー2 (TIGER & BUNNY2)",
+  "link": "https://solosoprani2002.com/book/17639898/",
+  "janCode": "2100013529203",
+  "released": {
+      "month": "04",
+      "year": "2022",
+      "day": "08"
+  },
+  "price": "12600",
+  "rank": "5",
+  "publisher": "Netflix"
+}
+]
+}

@@ -1,0 +1,97 @@
+{
+  "data": [
+      {
+          "author": [
+              "SixTONES"
+          ],
+          "imageUrl": "img/9210/2100013529210.gif",
+          "itemNo": "17639899",
+          "description": "",
+          "title": "004【予約】慣声の法則 in DOME (初回盤＋通常盤 Blu-rayセット)【Blu-ray】",
+          "link": "https://solosoprani2002.com/book/17639899/",
+          "janCode": "2100013529210",
+          "released": {
+              "month": "11",
+              "year": "2023",
+              "day": "01"
+          },
+          "price": "12600",
+          "rank": "1",
+          "publisher": "(株)ソニー・ミュージックレーベルズ／(株)ソニー・ミュージックソリューションズ"
+      },
+      {
+          "author": [
+              "SixTONES"
+          ],
+          "imageUrl": "img/5798/4547366645798_1_2.jpg",
+          "itemNo": "17639896",
+          "description": "",
+          "title": "【予約】慣声の法則 in DOME (Blu-ray初回盤)【Blu-ray】",
+          "link": "https://solosoprani2002.com/book/17639896/",
+          "janCode": "4547366645798",
+          "released": {
+              "month": "11",
+              "year": "2023",
+              "day": "01"
+          },
+          "price": "7040",
+          "rank": "2",
+          "publisher": "(株)ソニー・ミュージックレーベルズ／(株)ソニー・ミュージックソリューションズ"
+      },
+      {
+          "author": [],
+          "imageUrl": "img/6974/9784802156974_1_2.jpg",
+          "itemNo": "17643575",
+          "description": "",
+          "title": "【予約】GIANNA（ジェンナ） ＃10 SPECIAL EDITION（表紙：八木勇征版）",
+          "link": "https://solosoprani2002.com/book/17643575/",
+          "janCode": "9784802156974",
+          "released": {
+              "month": "10",
+              "year": "2023",
+              "day": "30"
+          },
+          "price": "1650",
+          "rank": "3",
+          "publisher": "ナンバーセブン"
+      },
+      {
+          "author": [
+              "SixTONES"
+          ],
+          "imageUrl": "img/9203/2100013529203.gif",
+          "itemNo": "17639898",
+          "description": "",
+          "title": "【予約】慣声の法則 in DOME (初回盤＋通常盤 DVDセット)",
+          "link": "https://solosoprani2002.com/book/17639898/",
+          "janCode": "2100013529203",
+          "released": {
+              "month": "11",
+              "year": "2023",
+              "day": "01"
+          },
+          "price": "12600",
+          "rank": "4",
+          "publisher": "(株)ソニー・ミュージックレーベルズ／(株)ソニー・ミュージックソリューションズ"
+      },
+      {
+          "author": [
+              "SixTONES"
+          ],
+          "imageUrl": "img/5774/4547366645774_1_2.jpg",
+          "itemNo": "17639894",
+          "description": "",
+          "title": "【予約】慣声の法則 in DOME (DVD初回盤)",
+          "link": "https://solosoprani2002.com/book/17639894/",
+          "janCode": "4547366645774",
+          "released": {
+              "month": "11",
+              "year": "2023",
+              "day": "01"
+          },
+          "price": "7040",
+          "rank": "5",
+          "publisher": "(株)ソニー・ミュージックレーベルズ／(株)ソニー・ミュージックソリューションズ"
+      }
+  ]
+}

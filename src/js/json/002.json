@@ -1,0 +1,99 @@
+{
+  "data": [
+      {
+          "author": [
+              "CAPCOM"
+          ],
+          "imageUrl": "img/game01.jpg",
+          "itemNo": "17639899",
+          "description": "",
+          "title": "モンスターハンター：ワールド(Monster Hunter World)",
+          "link": "https://solosoprani2002.com/book/17639899/",
+          "janCode": "2100013529210",
+          "released": {
+              "month": "11",
+              "year": "2023",
+              "day": "01"
+          },
+          "price": "12600",
+          "rank": "1",
+          "publisher": "CAPCOM east8"
+      },
+      {
+          "author": [
+              "Nintendo"
+          ],
+          "imageUrl": "img/game02.png",
+          "itemNo": "17639896",
+          "description": "",
+          "title": "ゼルダの伝説 | Tears of Kingdom",
+          "link": "https://solosoprani2002.com/book/17639896/",
+          "janCode": "4547366645798",
+          "released": {
+              "month": "11",
+              "year": "2023",
+              "day": "01"
+          },
+          "price": "7040",
+          "rank": "2",
+          "publisher": "Nintendoテクノソリューションズ"
+      },
+      {
+        "author": [
+          "Nintendo"
+        ],
+        "imageUrl": "img/game03.jpg",
+        "itemNo": "17643575",
+          "description": "",
+          "title": "ドラゴンクエストモンスターズ３",
+          "link": "https://solosoprani2002.com/book/17643575/",
+          "janCode": "9784802156974",
+          "released": {
+              "month": "10",
+              "year": "2023",
+              "day": "30"
+          },
+          "price": "1650",
+          "rank": "3",
+          "publisher": "Nintendoテクノソリューションズ"
+      },
+      {
+          "author": [
+              "スクウェア・エニックス"
+          ],
+          "imageUrl": "img/9203/2100013529203.gif",
+          "itemNo": "17639898",
+          "description": "",
+          "title": "ファイナルファンタジー15 (Final Fantasy 15)",
+          "link": "https://solosoprani2002.com/book/17639898/",
+          "janCode": "2100013529203",
+          "released": {
+              "month": "11",
+              "year": "2023",
+              "day": "01"
+          },
+          "price": "12600",
+          "rank": "4",
+          "publisher": "スクウェア・エニックス・ホールディングス"
+      },
+      {
+          "author": [
+              "Cygames"
+          ],
+          "imageUrl": "img/5774/4547366645774_1_2.jpg",
+          "itemNo": "17639894",
+          "description": "",
+          "title": "グランブルーファンタジー",
+          "link": "https://solosoprani2002.com/book/17639894/",
+          "janCode": "4547366645774",
+          "released": {
+              "month": "11",
+              "year": "2023",
+              "day": "01"
+          },
+          "price": "7040",
+          "rank": "5",
+          "publisher": "Cygames 東日本販売"
+      }
+  ]
+}

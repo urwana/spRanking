@@ -22,8 +22,7 @@ import uglify from "gulp-uglify";
 // };
 
 const copyHtml = () => {
-  return src("*.html")
-    .pipe(dest("dist"));
+  return src("src/*.html").pipe(dest("dist"));
 };
 
 const compileSass = () => {

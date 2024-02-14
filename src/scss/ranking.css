@@ -1,4 +1,100 @@
-@import "./reset";
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
 
 * {
   box-sizing: border-box;
@@ -20,33 +116,29 @@
 
 .navigationWrapper {
   position: relative;
-  // display: flex;
-  // justify-content: left;
-  // align-items: center;
   height: 32px;
   list-style-type: none;
   overflow-x: scroll;
   font-size: 0;
-  margin:0;
-  padding:0;
-  list-style:none;
-
-  > li {
-    position: absolute;
-    display: block;
-    text-align: center;
-    border-bottom: 1px solid #d1d1d1;
-    color: #444444;
-    font-size: 14px;
-    white-space: nowrap;
-    cursor: pointer;
-    height: 32px;
-    min-width: 80px;
-    padding: 4px 8px;
-  }
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navigationWrapper > li {
+  position: absolute;
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid #d1d1d1;
+  color: #444444;
+  font-size: 14px;
+  white-space: nowrap;
+  cursor: pointer;
+  height: 32px;
+  min-width: 80px;
+  padding: 4px 8px;
 }
 
-.navigationWrapper li.pressed{
+.navigationWrapper li.pressed {
   border-bottom: solid 1px #bf0000;
 }
 
@@ -185,21 +277,4 @@
 
 .innerPrice {
   display: inline-block;
-}
-
-// .rankItem .itemDataWrap .itemData .itemData__auther,
-// .itemUsuall .itemDataWrap .itemData .itemData__autherAndPrice .innerAuther {
-//   min-height: 0.8775rem;
-//   max-height: 0.8775rem;
-//   max-width: 100%;
-//   overflow: hidden;
-//   white-space: nowrap;
-//   text-overflow: ellipsis;
-// }
-
-// .rankItem .itemDataWrap .itemData .itemData__auther {
-//   font-size: 0.675rem;
-//   color: #666666;
-//   text-align: left;
-//   margin-bottom: 0.54rem;
-// }
+}/*# sourceMappingURL=ranking.css.map */

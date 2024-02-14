@@ -292,7 +292,7 @@ rankingNavigation.prototype = {
       }
     });
   },
-  setHtml: function(data, navIndex, fgenre) {
+  setHtml: function(data, navIndex, genre) {
     for (var i = 0; i < data["data"].length; i++) {
       if (i < 3) {
         var bookImg = $("<img>")
@@ -391,7 +391,7 @@ rankingNavigation.prototype = {
     }
     if (navIndex == 0) {
       $(".js_rankLinkBtn").attr({
-        href: "//suzuki/" + fgenre + "s",
+        href: "//suzuki/" + genre + "s",
       });
       $(document).ready(function() {
         thisClass.applyCss();
@@ -399,11 +399,11 @@ rankingNavigation.prototype = {
     } else {
       if (thisClass.pageGenre == "fbook") {
         $(".js_rankLinkBtn").attr({
-          href: "//suzuki/" + fgenre + "/t",
+          href: "//suzuki/" + genre + "/t",
         });
       } else {
         $(".js_rankLinkBtn").attr({
-          href: "//suzuki/" + fgenre + "/u",
+          href: "//suzuki/" + genre + "/u",
         });
       }
       $(document).ready(function() {
@@ -470,6 +470,7 @@ rankingNavigation.prototype = {
       thisClass.setNavAttribute(navIndex);
     });
   },
+
   setNavAttribute: function(navIndex) {
     var activeNavIndex = navIndex + 1;
     var nowActiveNavObj = $("li:nth-of-type(" + activeNavIndex + ")");
@@ -512,15 +513,15 @@ rankingNavigation.prototype = {
       });
     }
   },
-  judgeTouchAction: function(fstartX, fendX, fstartY, fendY, fthis) {
-    var directionSpeedX = fstartX - fendX;
-    var directionSpeedY = fstartY - fendY;
+  judgeTouchAction: function(startX, endX, startY, endY, thisRankLinkBox) {
+    var directionSpeedX = startX - endX;
+    var directionSpeedY = startY - endY;
     if (directionSpeedX > 80) {
       thisClass.executePageNavDirection("right");
     } else if (directionSpeedX < -80) {
       thisClass.executePageNavDirection("left");
     } else {
-      var thisLink = fthis.data("link");
+      var thisLink = thisRankLinkBox.data("link");
       if (thisLink) {
         if (Math.abs(directionSpeedY) < 5 && Math.abs(directionSpeedX) < 5) {
           location.href = thisLink;
@@ -528,31 +529,31 @@ rankingNavigation.prototype = {
       }
     }
   },
-  caluCount: function(fcount, faction) {
-    if (faction == "up") {
-      fcount++;
+  caluCount: function(count, action) {
+    if (action == "up") {
+      count++;
       if (
-        fcount >
+        count >
         thisClass.genreData[thisClass.pageGenre]["naviTitle"].length - 1
       ) {
-        fcount = 0;
+        count = 0;
       }
     } else {
-      fcount--;
-      if (fcount < 0) {
-        fcount =
+      count--;
+      if (count < 0) {
+        count =
           thisClass.genreData[thisClass.pageGenre]["naviTitle"].length - 1;
       }
     }
-    return fcount;
+    return count;
   },
-  executePageNavDirection: function(fdir) {
+  executePageNavDirection: function(direction) {
     var rankNavCount = thisClass.rankStock["genre"];
-    if (fdir == "left") {
+    if (direction == "left") {
       var pageNum = thisClass.caluCount(rankNavCount, "down");
       thisClass.switchingNavAndPage(pageNum);
       thisClass.rankStock["genre"] = pageNum;
-    } else if (fdir == "right") {
+    } else if (direction == "right") {
       var pageNum = thisClass.caluCount(rankNavCount, "up");
       thisClass.switchingNavAndPage(pageNum);
       thisClass.rankStock["genre"] = pageNum;

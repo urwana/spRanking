@@ -228,7 +228,6 @@ class RankingNavigation {
       fill: "forwards",
       easing: "ease",
     }).onfinish = () => {
-      // スピナーを非表示にする
       spinner.style.display = "none";
     };
     const newHeight =
@@ -426,7 +425,7 @@ class RankingNavigation {
   tabNavAcion(e) {
     const index = Array.from(e.currentTarget.parentNode.children).indexOf(
       e.currentTarget
-    ); // イベントが発生した要素からインデックスを取得
+    );
     this.rankStock["genre"] = index;
     this.switchingNavAndPage(index);
   }

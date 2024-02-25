@@ -1,10 +1,10 @@
 import { genreData } from "./genreData.js";
 
+// TODO: 初期画面の崩れを修正する。
 class RankingNavigation {
   constructor() {
     this.naviTabPositionArray = [];
     this.naviTabWidthArray = [];
-    // this.serverType = null;
     this.pageGenre = null;
     this.genreData = genreData;
     this.rankContentsHeightFlag = false;
